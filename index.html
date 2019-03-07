@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <!-- website title -->
+    <title>The Emotional GIPHY</title>
+
+    <!-- link to css reset -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+
+    <!-- link to bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+
+    <!-- link to css stylesheet -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+        
+
+       <body>
+            <!-- First Row - left: Text and GIPHY // Text left x9cols -->
+            <div class="container-text">
+                <div class="row text-center">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-back">
+                        <h1>How You Feel Today?</h1>
+                    </div>
+
+                    <!-- First Row - right: Text and GIPHY // Powered By Image right x3cols -->
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="img-giphy">
+                        <a href="https://giphy.com" target="_blank">
+                            <img src="assets/images/giphy2.gif" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row - left: Button Area x9cols -->
+            <div class="container-buttons">
+                <div class="row text-center">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        <div id="buttonGroup"></div>
+                    </div>
+
+                    <!-- Second Row - right: Search Area x3cols -->
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <br />
+                        <form>
+                            <fieldset>
+                                <label for="feeling-input">Add Your Feeling</label>
+                                <br />
+                                <input type="text" name="feeling-input" required placeholder="Type feeling here"
+                                    id="feeling-input">
+                                <br /> <br />
+                                <button type="submit" class="btn submit" data="submitBtn">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Row - GIPHY Display Area x9cols -->
+            <div class="container-fluid container-giphy text-center">
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="img-fluid" id="displayGiphy"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <!-- footer info -->
+        <footer class="container-fluid">
+
+            </footer>
+
+        </div> <!-- closing div for wrapper -->
+
+        <!-- script for jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- script for javascript -->
+        <script src="assets/javascript/giftastic.js"></script>
+
+        </body>
+
+    </html>
