@@ -19,3 +19,6 @@
 * Create a function to allow user input and add that to the array so a button can be made
 * allows user to hit enter instead of mouse click on submit to generate new button
 * Display the giphy images onto the page in the <div displayGiphy>
+
+
+https://nadiregh.github.io/GifTastic/
